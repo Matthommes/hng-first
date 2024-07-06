@@ -1,0 +1,19 @@
+{
+  "author": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "geoip-lite": "^1.4.10"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "stage-1",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
