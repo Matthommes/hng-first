@@ -1,19 +1,19 @@
 {
+  "name": "stage-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server.js",
+    "build": "npm build"
+
+  },
+  "keywords": [],
   "author": "",
+  "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "geoip-lite": "^1.4.10"
-  },
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "main": "index.js",
-  "name": "stage-1",
-  "scripts": {
-    "dev": "nodemon server"
-  },
-  "type": "module",
-  "version": "1.0.0"
+    "express": "^4.19.2"
+  }
 }
