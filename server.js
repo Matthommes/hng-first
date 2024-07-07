@@ -10,3 +10,6 @@ app.use("/api", helloRoutes);
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+
+module.exports = app
